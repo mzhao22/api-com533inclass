@@ -1,10 +1,11 @@
 var food = [
- {
+  "Sweet Soy Chicken wings" :
+    {
 		"name": "Sweet Soy Chicken Wings",
-		"number": "16",
+		"amount": "16",
     "type": "stir-fried",
-		"material": [
-		"salt",
+		"ingredients": [
+		{"name":"salt","amount": "1T"},
 		"soysauce",
     "Chicken Wings",
     "sugar" ]},
@@ -22,10 +23,12 @@ var food = [
  $("#user-form").on("submit", function(e){
 	var foodname = $("#food").val();
 	$("#result").append("<li>" + foodname + "</li>");
-	console.log("hello");
+	console.log("Caught submit event");
 	e.preventDefault();
  });
 
  $("#food").on("focus", function(e){
-	 console.log("kakaksk");
+	 console.log("Caught food focus event");
  });
+
+//single food object or
