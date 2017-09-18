@@ -25,7 +25,7 @@ var food = [
 	$("#result").append("<li>" + foodname + "</li>");
 	console.log("Caught submit event");
 	e.preventDefault();
- });
+})];
 
  $("#food").on("focus", function(e){
 	 console.log("Caught food focus event");
