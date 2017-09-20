@@ -1,5 +1,5 @@
 var food = [
-  "Sweet Soy Chicken wings" :
+  "Sweet Soy Chicken wings" ];
     {
 		"name": "Sweet Soy Chicken Wings",
 		"amount": "16",
@@ -25,7 +25,7 @@ var food = [
 	$("#result").append("<li>" + foodname + "</li>");
 	console.log("Caught submit event");
 	e.preventDefault();
-})];
+});
 
  $("#food").on("focus", function(e){
 	 console.log("Caught food focus event");

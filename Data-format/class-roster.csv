@@ -1,0 +1,12 @@
+class identifier
+class name
+first name
+last name
+student id
+email
+
+
+class_identifier, class_name, first_name, last_name,student_id,email
+"COM 530","APIs","Bob","Adams","A9991235","badams@fake.example.com"
+"COM 530","APIs","Katie","Smith","A9991234","ksmith@fake.example.com"
+"COM 530","APIs","Pat","Johnson","A9991236","PJohnson@fake.example.com" 
