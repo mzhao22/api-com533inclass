@@ -4,24 +4,25 @@ var food = [
 		"amount": "16",
     "type": "stir-fried",
 		"ingredients": [
-		{"name":"salt","amount": "1tspoon"},
-		"soysauce",
-    "Chicken Wings",
+		{"name":"salt ","amount": "1 tspoon, "},
+		" soysauce, ",
+    "Chicken Wings, ",
     "sugar" ]},
-	{
+
+  {
 			"name": "Potatoes with Chicken Wings",
 			"count": "8",
 	    "type": "stir-fried",
 			"materials": [
-			"salt",
-			"soysauce",
-	    "sugar",
+			"salt, ",
+			"soysauce, ",
+	    "sugar, ",
       "red skin potatoes" ]},
   {
-      "name": "Other materials",
+      "name": "Other materials:",
       "materials": [
-        "basil leaf 1",
-        "sesame 1 scoop"
+        "basil leaf 1, ",
+        " sesame 1 scoop"
       ]
 		}];
 
