@@ -28,7 +28,11 @@ var food = [
   ];
 
  $('#user-form').on("submit", function(e){
-	 	var container = ["name", "count", "type", "materials",];
+	 	  var food = $('#food').val();
+      $('#result').append('<li> foodname </li>');
+      e.preventDefault();
+      });
+
 		var foodname = $('#food');
 
 	$('#result').append("<li>" + foodname + "</li>");
