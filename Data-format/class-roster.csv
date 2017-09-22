@@ -1,0 +1,4 @@
+class_identifier,class_name,instructor,first_name,last_name,student_id,email
+"COM 530","APIs","Karl Stolley","Bob","Adams","A9991235","badams@fake.example.com"
+"COM 530","APIs","Karl Stolley","Katie","Smith","A9991234","ksmith@fake.example.com"
+"COM 530","APIs","Karl Stolley","Pat","Johnson","A9991236","PJohnson@fake.example.com"
