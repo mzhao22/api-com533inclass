@@ -1,11 +1,9 @@
-var food = [
-  "Sweet Soy Chicken wings" ];
+var food = {
     {
 		"name": "Sweet Soy Chicken Wings",
 		"amount": "16",
     "type": "stir-fried",
 		"ingredients": [
-		{"name":"salt","amount": "1T"},
 		"soysauce",
     "Chicken Wings",
     "sugar" ]},
@@ -19,27 +17,24 @@ var food = [
 	    "sugar",
       "red skin potatoes" ]},
   {
-      "name": "Other materials"
+      "name": "Other materials",
       "materials": [
-        "basil leaf 1"
-        "sesame 1 scoop",
-      ]
+        "basil leaf 1",
+        "sesame 1 scoop"]
 		}
-  ];
+  };
 
- $('#user-form').on("submit", function(e){
-	 	  var food = $('#food').val();
-      $('#result').append('<li> foodname </li>');
-      e.preventDefault();
-      });
-
-		var foodname = $('#food');
-
-	$('#result').append("<li>" + foodname + "</li>");
-	console.log("Caught submit event");
-	e.preventDefault();
-
+$('#user-form').on("submit", function(e){
+	var food = $('#food').val();
+  $('#result').append('<li> food </li>');
+  e.preventDefault();
 });
+
+$('#food').on('focus', function(){
+  console.log('')
+});
+
+
 
 
 //single food object or
