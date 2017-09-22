@@ -1,31 +1,39 @@
-var food = [
- {
-		"name": "Sweet Soy Chicken Wings",
-		"number": "16",
+var food = [{
+		"name": "Sweet Soysauce Chicken Wings",
+		"count": "16",
     "type": "stir-fried",
-		"material": [
+		"materials": [
 		"salt",
 		"soysauce",
     "Chicken Wings",
     "sugar" ]},
 	{
-			"name": "potato",
-			"number": "10",
+			"name": "Potatoes with Chicken Wings",
+			"count": "8",
 	    "type": "stir-fried",
-			"material": [
+			"materials": [
 			"salt",
 			"soysauce",
-	    "Chicken Wings",
-	    "sugar" ]}
-  ]
+	    "sugar",
+      "red skin potatoes" ]},
+  {
+      "name": "Other materials"
+      "materials": [
+        "basil leaf 1"
+        "sesame 1 scoop",
+      ]
+		}
+  ];
 
  $("#user-form").on("submit", function(e){
-	var foodname = $("#food").val();
+	 	var container = ["name", "count", "type", "materials",];
+		var foodname = $('#food');.append
+
 	$("#result").append("<li>" + foodname + "</li>");
-	console.log("hello");
+	console.log("food");
 	e.preventDefault();
  });
 
  $("#food").on("focus", function(e){
-	 console.log("kakaksk");
+	 console.log("food");
  });
