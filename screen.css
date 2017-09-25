@@ -86,3 +86,12 @@ botton {
   text-transform: capitalize;
 	text-align: center;
 }
+
+
+//changes start here
+img {
+	display: block;
+	float: left;
+	width: 2em;
+
+}

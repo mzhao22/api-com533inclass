@@ -26,9 +26,18 @@ var food = [
       ]
 		}];
 
+var my_data;
  $('#user-form').on("submit", function(e){
 	 //var food = $('#food').val();
+   //changes starts here:
+   var url = 'https://api.jquery.com/users/' + username;
+   $.get(url, function (data){
+     my_data = data
+     console.log("your data should be ready in my data")
+     //console.log("omg GOT some data" + data);
+   });
      e.preventDefault();
+
 	 var foodname = $('#food').val();
 	 if ($('#food').val()==''){
 		 $('#result').append("<br />Here are the foods provided:<br />" + food[0].name + "");
